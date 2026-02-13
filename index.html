@@ -21,9 +21,10 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" target="_blank">Resume</a></li>
       </ul>
 
-      <button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
+      <button class="menu-btn" id="menuBtn">☰</button>
     </nav>
   </header>
 
@@ -60,83 +61,8 @@
           <h3>Quick Info</h3>
           <p><b>Role:</b> Full Stack Developer</p>
           <p><b>Tech:</b> MERN Stack • JavaScript • MongoDB</p>
-          <p><b>Project:</b> Gadget Galaxy (E-commerce)</p>
+          <p><b>Projects:</b> Gadget Galaxy • ChatSpace</p>
           <p><b>Location:</b> Kurnool, India</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="section container" id="about">
-    <h2 class="section-title">About Me</h2>
-    <p class="section-desc">
-      I am a Computer Science undergraduate passionate about building efficient and scalable web applications.
-      I enjoy creating clean user interfaces and developing optimized backend systems.
-      I have built an e-commerce platform with cart, admin dashboard, and order management.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section container" id="skills">
-    <h2 class="section-title">Skills</h2>
-    <p class="section-desc">
-      My technical toolkit for full-stack development and real-world project building.
-    </p>
-
-    <div class="skills-grid">
-      <div class="skills-card">
-        <h3>Programming Languages</h3>
-        <div class="skills-tags">
-          <span>Java</span>
-          <span>Python</span>
-          <span>SQL</span>
-          <span>DSA (Java)</span>
-        </div>
-      </div>
-
-      <div class="skills-card">
-        <h3>Web Technologies</h3>
-        <div class="skills-tags">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React.js</span>
-          <span>Node.js</span>
-          <span>Express.js</span>
-          <span>MongoDB</span>
-          <span>MERN Stack</span>
-        </div>
-      </div>
-
-      <div class="skills-card">
-        <h3>Databases</h3>
-        <div class="skills-tags">
-          <span>MongoDB</span>
-          <span>SQL</span>
-          <span>DBMS</span>
-        </div>
-      </div>
-
-      <div class="skills-card">
-        <h3>Tools & Platforms</h3>
-        <div class="skills-tags">
-          <span>VS Code</span>
-          <span>Git</span>
-          <span>GitHub</span>
-          <span>Canva</span>
-          <span>Figma</span>
-          <span>AI Tools</span>
-        </div>
-      </div>
-
-      <div class="skills-card">
-        <h3>Soft Skills</h3>
-        <div class="skills-tags">
-          <span>Teamwork</span>
-          <span>Communication</span>
-          <span>Problem Solving</span>
-          <span>Strategic Thinking</span>
         </div>
       </div>
     </div>
@@ -150,6 +76,8 @@
     </p>
 
     <div class="projects-grid">
+
+      <!-- Gadget Galaxy -->
       <div class="project-card">
         <div class="project-top">
           <h3>Gadget Galaxy</h3>
@@ -157,7 +85,8 @@
         </div>
 
         <p class="project-desc">
-          A scalable e-commerce platform with secure cart, order management, and an admin dashboard.
+          A scalable e-commerce platform with secure cart functionality, order management,
+          and an admin dashboard delivering a smooth and responsive shopping experience.
           Built using Node.js, Express.js, MongoDB (Mongoose), and Express-session.
         </p>
 
@@ -171,11 +100,47 @@
         </div>
 
         <div class="project-links">
-          <a class="btn small primary" target="_blank" href="https://gadgetgalaxy-3s5o.onrender.com/">Live</a>
-          <a class="btn small outline" target="_blank" href="https://github.com/ADNAN678678/Gadget_Galaxy">GitHub</a>
+          <a class="btn small primary" target="_blank"
+            href="https://gadgetgalaxy-3s5o.onrender.com/">Live</a>
+          <a class="btn small outline" target="_blank"
+            href="https://github.com/ADNAN678678/Gadget_Galaxy">GitHub</a>
         </div>
       </div>
 
+      <!-- ChatSpace -->
+      <div class="project-card">
+        <div class="project-top">
+          <h3>ChatSpace</h3>
+          <span class="tag">Real-Time</span>
+        </div>
+
+        <p class="project-desc">
+          A scalable real-time chat application with secure JWT authentication,
+          live messaging, typing indicators, and active user tracking.
+          Developed using Node.js, Express.js, MongoDB (Mongoose),
+          Socket.io, JWT, and bcrypt with cloud-based deployment.
+        </p>
+
+        <div class="tech-stack">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>Socket.io</span>
+          <span>JWT</span>
+        </div>
+
+        <div class="project-links">
+          <a class="btn small primary" target="_blank"
+            href="https://chatspace-nexd.onrender.com/">Live</a>
+          <a class="btn small outline" target="_blank"
+            href="https://github.com/ADNAN678678/ChatSpace">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Upcoming Projects -->
       <div class="project-card muted">
         <div class="project-top">
           <h3>Upcoming Projects</h3>
@@ -183,144 +148,23 @@
         </div>
 
         <p class="project-desc">
-          I am currently building more full-stack applications to strengthen my skills and portfolio.
+          Currently building advanced full-stack applications including
+          API-driven systems, authentication-based platforms, and scalable
+          MERN applications to strengthen backend and system design skills.
         </p>
 
         <div class="tech-stack">
           <span>MERN</span>
-          <span>APIs</span>
+          <span>REST APIs</span>
           <span>Authentication</span>
+          <span>System Design</span>
         </div>
 
         <div class="project-links">
           <a class="btn small outline" href="#contact">Let’s Connect</a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- EDUCATION -->
-  <section class="section container" id="education">
-    <h2 class="section-title">Education</h2>
-    <p class="section-desc">My academic background.</p>
-
-    <div class="edu-grid">
-      <div class="edu-card">
-        <div class="edu-top">
-          <h3>B.Tech in Computer Science and Engineering</h3>
-          <span class="edu-year">2022 - 2026</span>
-        </div>
-        <p class="muted-text">G. Pullaiah Engineering College, Kurnool</p>
-        <p class="muted-text"><b>CGPA:</b> 8.2</p>
-      </div>
-
-      <div class="edu-card">
-        <div class="edu-top">
-          <h3>Intermediate (MPC)</h3>
-          <span class="edu-year">2022</span>
-        </div>
-        <p class="muted-text">Narayana Junior College, Kurnool</p>
-        <p class="muted-text"><b>Percentage:</b> 86%</p>
-      </div>
-
-      <div class="edu-card">
-        <div class="edu-top">
-          <h3>SSC</h3>
-          <span class="edu-year">2020</span>
-        </div>
-        <p class="muted-text">Montessori E.M High School, Kurnool</p>
-        <p class="muted-text"><b>Percentage:</b> 98%</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CERTIFICATES -->
-  <section class="section container" id="certificates">
-    <h2 class="section-title">Certifications</h2>
-    <p class="section-desc">
-      Certifications that enhanced my development and problem-solving skills.
-    </p>
-
-    <div class="cert-grid">
-      <div class="cert-card">
-        <h3>Full Stack Development with MERN Stack</h3>
-        <p class="muted-text">Issued By: Infotech Computers</p>
-        <p class="muted-text">2025</p>
-        <a class="cert-link" target="_blank" href="#">View Certificate</a>
-      </div>
-
-      <div class="cert-card">
-        <h3>Introduction to AI</h3>
-        <p class="muted-text">Issued By: IBM SkillsBuild</p>
-        <p class="muted-text">2024</p>
-        <a class="cert-link" target="_blank" href="certificates/ibm-skillsbuild-ai.pdf">View Certificate</a>
-      </div>
-
-      <div class="cert-card">
-        <h3>Java Programming</h3>
-        <p class="muted-text">Issued By: HackerRank</p>
-        <p class="muted-text">2025</p>
-        <a class="cert-link" target="_blank" href="certificates/hackerrank-java-basic.pdf">View Certificate</a>
-      </div>
-
-      <div class="cert-card">
-        <h3>Virtual Internship AI-ML</h3>
-        <p class="muted-text">Issued By: EduSkills</p>
-        <p class="muted-text">2024</p>
-        <a class="cert-link" target="_blank" href="certificates/aicte-certificate.pdf">View Certificate</a>
-      </div>
-
-      <div class="cert-card">
-        <h3>Web & Mobile Development</h3>
-        <p class="muted-text">Issued By: Rooman Technologies</p>
-        <p class="muted-text">2025</p>
-        <a class="cert-link" target="_blank" href="certificates/adnan-roman.pdf">View Certificate</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section container" id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <p class="section-desc">
-      Want to collaborate or hire me? Feel free to reach out.
-    </p>
-
-    <div class="contact-wrapper">
-      <div class="contact-info">
-        <div class="contact-item">
-          <h3>Email</h3>
-          <a href="mailto:iamadnan678@gmail.com">iamadnan678@gmail.com</a>
-        </div>
-
-        <div class="contact-item">
-          <h3>GitHub</h3>
-          <a target="_blank" href="https://github.com/ADNAN678678">github.com/ADNAN678678</a>
-        </div>
-
-        <div class="contact-item">
-          <h3>LinkedIn</h3>
-          <a target="_blank" href="https://www.linkedin.com/in/MohammadAdnan678/">
-            linkedin.com/in/MohammadAdnan678
-          </a>
-        </div>
-      </div>
-
-      <!-- WORKING CONTACT FORM (Web3Forms) -->
-      <form class="contact-form" id="contactForm">
-        <h3>Send a Message</h3>
-
-        <input type="hidden" name="access_key" value="edf7bbd9-e881-4d73-ac04-3d5b732ecec6" />
-        <input type="hidden" name="subject" value="New Message from Portfolio" />
-        <input type="hidden" name="from_name" value="Mohammad Adnan Portfolio" />
-
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-
-        <button type="submit" class="btn primary" id="sendBtn">Send</button>
-        <p class="form-note" id="formNote"></p>
-      </form>
     </div>
   </section>
 
